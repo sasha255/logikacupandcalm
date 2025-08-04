@@ -1,0 +1,318 @@
+body {
+    font-family: "Unbounded", sans-serif;
+    font-weight: 300;
+    margin: 0;
+}
+
+header {
+    background-color: rgba(209, 172, 156, 1);
+}
+
+.logo {
+    width: 100px;
+    position: relative;
+    left: 30px;
+}
+
+.divlogo {
+    position: relative;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.coffee1 {
+    width: 350px;
+}
+
+.coffee2 {
+    display: block;
+    width: 350px;
+}
+
+.header {
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    font-size: 14px;
+}
+
+a:hover {
+    color: rgb(102, 83, 76);
+}
+
+.basket {
+    width: 27px;
+    padding-top: 10px;
+}
+
+.buttons {
+    text-align: right;
+}
+
+h2 {
+    text-align: center;
+    font-size: 27px;
+    font-family: "Unbounded", sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 24px;
+    font-family: "Unbounded", sans-serif;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.aboutus1 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.aboutus2 {
+    text-align: center;
+    font-size: 15px;
+}
+
+.headercontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logotext {
+    position: absolute;
+    top: 90px;
+}
+
+h3 {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 300;
+}
+
+
+main p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.cards-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    scroll-margin-top: 20px;
+    gap: 20px;
+}
+
+.card1 {
+    background-color: rgba(184, 143, 97, 1);
+    border-radius: 15px;
+    width: 250px;
+    padding: 15px;
+    text-align: center;
+    margin: 50px;
+}
+
+.card2 {
+    background-color: rgba(236, 210, 198, 1);
+    border-radius: 15px;
+    width: 250px;
+    padding: 15px;
+    text-align: center;
+    margin: 50px;
+}
+
+.card3 {
+    background-color: rgba(228, 189, 156, 1);
+    border-radius: 15px;
+    width: 250px;
+    padding: 15px;
+    text-align: center;
+    margin: 50px;
+}
+
+.card4 {
+    background-color: rgba(233, 214, 239, 1);
+    border-radius: 15px;
+    width: 250px;
+    padding: 15px;
+    text-align: center;
+    margin: 50px;
+}
+
+.card5 {
+    background-color: rgba(130, 103, 89, 1);
+    border-radius: 15px;
+    width: 250px;
+    padding: 15px;
+    text-align: center;
+    margin: 50px;
+}
+
+.card6 {
+    background-color: rgba(188, 130, 99, 1);
+    border-radius: 15px;
+    width: 250px;
+    padding: 15px;
+    text-align: center;
+    margin: 50px;
+}
+
+.card7 {
+    background-color: rgba(217, 174, 129, 1);
+    border-radius: 15px;
+    width: 250px;
+    padding: 15px;
+    text-align: center;
+    margin: 50px;
+}
+
+.card8 {
+    background-color: rgba(237, 228, 210, 1);
+    border-radius: 15px;
+    width: 250px;
+    padding: 15px;
+    text-align: center;
+    margin: 50px;
+}
+
+.card9 {
+    background-color: rgba(199, 215, 193, 1);
+    border-radius: 15px;
+    width: 250px;
+    padding: 15px;
+    text-align: center;
+    margin: 50px;
+}
+
+.card10 {
+    background-color: rgba(241, 224, 174, 1);
+    border-radius: 15px;
+    width: 250px;
+    padding: 15px;
+    text-align: center;
+    margin: 50px;
+}
+
+.card11 {
+    background-color: rgba(142, 99, 91, 1);
+    border-radius: 15px;
+    width: 250px;
+    padding: 15px;
+    text-align: center;
+    margin: 50px;
+}
+
+.card12 {
+    background-color: rgba(168, 112, 114, 1);
+    border-radius: 15px;
+    width: 250px;
+    padding: 15px;
+    text-align: center;
+    margin: 50px;
+}
+
+.cards {
+    font-size: 11px;
+}
+
+.cards1 {
+    color: rgba(96, 63, 28, 1);
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.cards2 {
+    color: rgba(113, 71, 56, 1);
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.cards3 {
+    color: rgba(125, 84, 53, 1);
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.cards4 {
+    color: rgba(93, 72, 85, 1);
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.cards5 {
+    color: rgba(15, 15, 15, 1);
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.cards6 {
+    color: rgba(96, 56, 39, 1);
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.cards7 {
+    color: rgba(102, 73, 63, 1);
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.cards8 {
+    color: rgba(137, 108, 78, 1);
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.cards9 {
+    color: rgba(70, 84, 58, 1);
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.cards10 {
+    color: rgba(128, 97, 61, 1);
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.cards11 {
+    color: rgba(74, 41, 29, 1);
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.cards12 {
+    color: rgba(75, 41, 43, 1);
+    font-weight: 300;
+    font-size: 15px;
+}
+
+footer {
+    background-color: rgba(254, 230, 213, 1);
+}
+
+footer h2 {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 40px;
+}
+
+footer p {
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.footerimages {
+     margin-left: 20px;
+}
+
+.footerimages:hover {
+    cursor: pointer;
+    margin-left: 20px;
+}
