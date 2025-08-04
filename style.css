@@ -39,15 +39,22 @@ a {
     color: black;
     margin: 10px;
     font-size: 14px;
+    transition: 0.5s;
 }
 
 a:hover {
     color: rgb(102, 83, 76);
+    font-size: 17px;
 }
 
 .basket {
     width: 27px;
     padding-top: 10px;
+}
+
+.basket:hover {
+    width: 32px;
+    transition: 0.5s;
 }
 
 .buttons {
@@ -315,4 +322,21 @@ footer p {
 .footerimages:hover {
     cursor: pointer;
     margin-left: 20px;
+}
+
+button {
+    font-family: "Unbounded", sans-serif;
+    font-weight: 300;
+    border-radius: 20px;
+    border: 1px solid rgb(57, 41, 37);
+    background-color: white;
+    transition: 1s;
+}
+
+button:hover {
+    background-color: rgb(208, 208, 208);
+    transition: 1s;
+    cursor: pointer;
+    transform: scale(1.05);
+    font-size: 15px;
 }
